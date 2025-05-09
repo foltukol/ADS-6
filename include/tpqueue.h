@@ -37,7 +37,7 @@ Node* head;
   }
   T pop() {
     if (!head) {
-      throw std::runtime_error("Queue is empty");
+      throw "Queue is empty";
     }
     Node* temp = head;
     T value = head->data;
